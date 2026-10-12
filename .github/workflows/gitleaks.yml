@@ -1,5 +1,9 @@
+# Scans every push and pull request for secrets (keys, tokens, passwords).
+# A failed run means gitleaks found something: do not merge, remove it and rotate the secret.
 name: secret scan
 on: [push, pull_request]
+permissions:
+  contents: read
 jobs:
   gitleaks:
     runs-on: ubuntu-latest
