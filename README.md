@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.svg" alt="A tin robot waters a seedling. Gardens of AI: code examples." width="900"></p>
+
 # Gardens of AI: code examples
 
 Code for posts and technical notes on [Gardens of AI](https://gardens-of-ai.co.uk).
