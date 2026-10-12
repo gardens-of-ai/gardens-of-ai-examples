@@ -1,0 +1,11 @@
+[project]
+name = "mcp-tasks-strands"
+version = "0.1.0"
+description = "Non-blocking MCP Tasks with Strands Agents"
+requires-python = ">=3.13"
+dependencies = [
+    "strands-agents==1.59.0",
+    "mcp==2.1.1",
+    "fastmcp==4.1.0",
+    "fastmcp-tasks==4.1.0",
+]

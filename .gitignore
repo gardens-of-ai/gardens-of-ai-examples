@@ -1,0 +1,21 @@
+# Never commit secrets or local state
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+*.db
+*.sqlite
+.aws/
+credentials
+# Python
+__pycache__/
+*.pyc
+.venv/
+.python-version
+uv.lock
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
